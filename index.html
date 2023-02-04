@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Horizon Bank - Online Banking made easy | Open an account online.</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+<body class="overflow-x-hidden">
+    <style>
+        body {
+            overflow-x: hidden !important;
+        }
+    </style>
+    <div class="flex justify-around items-center w-full bg-[#30a52e]">
+        <nav class="hidden lg:flex justify-between items-center px-5 xl:w-fit">
+            <div class="left xl:mr-80">
+                <ul class="flex items-center">
+                    <li class="lg:text-[1.2rem] p-2 border-r-[1px] border-[#383838] border-solid ">
+                        <a href="">
+                            <img  class="md:w-[150px] " src="./assets/diamond-on-dark.png" height="26" alt="app-logo">
+                        </a>
+                    </li>
+                    <li class="text-white lg:text-[1rem] p-2 py-6 hover:border-b-2 border-solid border-yellow-300"><a href="">Personal</a></li>
+                    <li class="text-white lg:text-[1rem] p-2 py-6 hover:border-b-2 border-solid border-yellow-300"><a href="">Corporate</a></li>
+                </ul>
+            </div>
+            <div class="div">
+                <ul class="flex">
+                    <li class="text-white lg:text-[1rem] p-2 py-6 hover:border-b-2 border-solid border-yellow-300"><a href="#">About Us</a></li>
+                    <li class="text-white lg:text-[1rem] p-2 py-6 hover:border-b-2 border-solid border-yellow-300"><a href="#">Services</a></li>
+                    <li class="text-white lg:text-[1rem] p-2 py-6 hover:border-b-2 border-solid border-yellow-300"><a href="#">Online Bank</a></li>
+                    <li class="text-white lg:text-[1rem] p-2 py-6 hover:border-b-2 border-solid border-yellow-300"><a href="#">Privacy</a></li>
+                    <li class="text-white lg:text-[1rem] p-2 py-6 hover:border-b-2 border-solid border-yellow-300"><a href="#">Contact Us</a></li>
+                    <li class="transition-all duration-500 ease-in-out text-white bg-[#016076] rounded-lg px-4 lg:text-[1rem] p-2 my-5 hover:text-[#016076] hover:bg-white"><a href="dashboard/register.html">Sign Up</a></li>
+                    <li class="transition-all duration-500 ease-in-out text-white lg:text-[1rem] p-2 my-5 hover:bg-[#f50404] rounded-lg mx-4 px-5"><a href="dashboard/login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Mobile Menu -->
+
+    <nav class="px-12 py-4 flex justify-between items-center bg-[#30a52e] lg:hidden">
+        <img class="w-[160px] h-[53px] border-r-[1px] border-solid border-gray-400" src="assets/diamond-on-dark.png" alt="">
+        <span onclick="document.querySelector('.mobile__nav').classList.remove('hidden')" class="open__nav hover:cursor-pointer text-white text-xl">Menu</span>
+    </nav>
+
+    <div class="px-5 banner bg-[#BBF6E2] flex justify-center items-center">
+        <p class="banner__text py-6 lg:text-lg font-bold text-gray-800"><span class="underline">Explore</span> DHB's competitive savings interest rates</p>
+    </div>
+    <!-- First Section -->
+    <section class="w-full bg-[#30a52e] flex justify-center items-center px-12">
+        <div class="lg:w-fit lg:px-16 flex lg:flex-row xl:flex-row-reverse items-center flex-col-reverse">
+            <div class="mt-20 flex-1 lg:m-16 max-w-[600px] lg:mt-0">
+                <h3 class="text-4xl text-red-600 font-bold lg:text-3xl xl:text-3xl">Banking made easy</h3>
+                <p class="text-white lg:text-lg my-6">Spend, save and manage your money, all in one place. Open a full UK bank account from your phone, for free.</p>
+                <div class="flex flex-wrap">
+                    <button class="hover:opacity-[0.8] mb-5 md:mb-0 rounded-md bg-[#016076] text-white font-bold py-3 block lg:px-20 w-full lg:mb-4 xl:mb-0 lg:text-lg">Open a Diamond Horizon account</button>
+                    <img class="max-w-[174px] max-h-[60px] mb-12" src="assets/best-british-bank.png" alt="">
+                </div>
+            </div>
+            <div class="mt-12 md:mt-0 flex-1 lg:m-16">
+                <img class="lg:max-w-[539px] lg:max-h-[430px]" src="assets/Home_Hero.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Users -->
+    <section class="px-20 flex flex-col justify-center items-center w-full">
+        <div class="flex justify-between mb-3 mt-12">
+            <img class="w-[85px] h-[44px]" src="assets/partners/cass-logo.png" alt="">
+            <img class="w-[82px] h-[45px]" src="assets/partners/direct-debit.png" alt="">
+            <img class="w-[46px] h-[44px]" src="assets/partners/fscs.png" alt="">
+        </div>
+        <div class="flex flex-col md:flex-row justify-center items-center my-3 flex-wrap text-center">
+            <p class="lg:mr-5 text-sm text-center">Our customer say</p>
+            <p class="font-bold invisible sm:visible mr-5 text-center">Excellent</p>
+            <img class="w-[130px] h-[23px]" src="assets/trust.svg" alt="">
+            <p class="mx-5 text-sm text-center">4.4 out of 5 based on 25,073 reviews</p>
+            <div class="flex items-center">
+                <img class="w-[153px]" src="assets/star.svg" alt="star">
+                <p class="ml-[-5rem] text-sm text-center">Trustpilot</p>
+            </div>
+        </div>
+        <h3 class="font-bold text-2xl my-3 text-center">Join more than 6 million people with a Diamond Horizon bank account</h3>
+        <div class="flex items-center justify-center mt-3 mb-12">
+            <img class="w-[150px] h-[50px]" src="assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="ios app store logog">
+            <img class="w-[191px] h-[73px]" src="assets/google-play-badge.png" alt="google play">
+        </div>
+    </section>
+
+    <section class="mb-12 flex flex-col items-center justify-center w-full px-5">
+        <div class="flex flex-wrap justify-around">
+            <div class="flex flex-col max-w-[350px] text-center mb-24 items-center justify-center">
+                <img class="w-[300px] h-[300px]" src="assets/cards/web-triptych1@2x.png" alt="">
+                <p class="mt-5 lg:text-lg text-slate-800">A full UK current account you can open in 15 minutes</p>
+            </div>
+    
+            <div class="flex flex-col max-w-[350px] text-center mb-24 items-center justify-center">
+                <img class="w-[300px] h-[300px]" src="assets/cards/web-triptych2@2x.png" alt="">
+                <p class="mt-5 lg:text-lg text-slate-800">Organise your money however you’d like with Pots</p>
+            </div>
+    
+            <div class="flex flex-col max-w-[350px] text-center mb-24 items-center justify-center">
+                <img class="w-[300px] h-[300px]" src="assets/cards/web-triptych3@2x.png" alt="">
+                <p class="mt-5 lg:text-lg text-slate-800">See your money in a whole new light with Trends</p>
+            </div>
+        </div>
+        <button class="hover:opacity-[0.8] mb-20 rounded-md bg-[#016076] text-white font-bold px-12 py-3 block lg:px-12 lg:text-lg">Open a Diamond account</button>
+    </section>
+
+    <section class="h-fit justify-center flex w-full px-5">
+        <div class="bg-[#BBF6E2] pt-12 rounded-[3rem] px-[2.8rem] flex flex-col md:flex-row items-center w-full">
+            <div class="xl:mr-80">
+                <img class="lg:max-w-[399px]" src="assets/Save-1.png" alt="">
+            </div>
+            <div class="lg:w-[431px]">
+                <h2 class="text-xl lg:text-5xl font-bold mb-8">Save</h2>
+                <p class="text-sm spercial__txt text-gray-800 lg:text-lg font-extralight mb-8" style="font-weight: lighter;">Earn up to 3.55% (AER/Gross fixed) interest on your savings. That’s on a 12-month Fixed Pot with a £500 minimum deposit to open. (Fixed means the money will be locked away for 12 months while you earn interest on it.)
+
+                    We offer Easy Access Savings too, which let you get your money the next working day!
+                </p>
+                <button class="hover:opacity-[0.8] mb-20 rounded-md bg-[#016076] text-white font-bold px-12 py-3 block lg:px-12 lg:text-lg">Saving With Diamond Horizond</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section rows 2 -->
+
+    <section class="h-fit justify-center flex mt-9 w-full px-5">
+        <div class="pt-12 rounded-[3rem] px-[2.8rem] flex flex-col md:flex-row items-center w-full">
+            <div class="lg:w-[431px]  xl:mr-80">
+                <h2 class="text-xl lg:text-5xl font-bold mb-8">Spend</h2>
+                <p class="spercial__txt text-gray-800 lg:text-lg font-extralight mb-8" style="font-weight: lighter;">Get instant notifications the second you pay. Set budgets for things like groceries and going out, and get warnings if you’re spending too fast (if you want them).</p>
+                <!-- <button class="hover:opacity-[0.8] mb-20 rounded-md bg-[#016076] text-white font-bold px-12 py-3 block lg:px-12 lg:text-lg">Saving With Diamond Horizon</button> -->
+            </div>
+            <div>
+                <img class="lg:max-w-[399px]" src="assets/Spend.avif" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section row 3 -->
+
+    <section class="h-fit justify-center flex mt-9 full px-5">
+        <div class="pt-12 rounded-[3rem] px-[2.8rem] flex flex-col md:flex-row items-center bg-[#FFD7F0] w-full">
+            <div class="xl:mr-80">
+                <img class="lg:max-w-[399px]" src="assets/Spend.avif" alt="">
+            </div>
+            <div class="lg:w-[431px]">
+                <h2 class="text-xl lg:text-5xl font-bold mb-8">Manage</h2>
+                <p class="spercial__txt text-gray-800 lg:text-lg font-extralight mb-8" style="font-weight: lighter;">Pay Direct Debits through Diamond Horizon and we’ll tell you if they’re higher for the upcoming month. So no nasty surprises.</p>
+                <!-- <button class="hover:opacity-[0.8] mb-20 rounded-md bg-[#016076] text-white font-bold px-12 py-3 block lg:px-12 lg:text-lg">Saving With Diamond Horizon</button> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section row 4 -->
+    
+    <section class="h-fit justify-center flex mt-12 xl:mt-[12rem] w-full px-5">
+        <div class="pt-12 rounded-[3rem] px-[2.8rem] flex flex-col md:flex-row items-center section__gradient w-full">
+            <div class="lg:w-[431px]">
+                <h2 class="text-xl lg:text-5xl font-bold mb-8">Online banking that makes a statement</h2>
+                <p class="spercial__txt text-gray-800 lg:text-lg font-extralight mb-8" style="font-weight: lighter;">Turn heads with our white metal card, made from steel. Enjoy peace of mind with extensive phone and travel insurance, interest and much more.</p>
+                <button class="hover:opacity-[0.8] mb-20 rounded-md bg-[#016076] text-white font-bold px-12 py-3 block lg:px-12 lg:text-lg">Explore Diamond Horizon Premium</button>
+            </div>
+            <div class="xl:ml-80 xl:mt-[-9rem]">
+                <img class="lg:max-w-[399px]" src="assets/Premium.avif" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section row 5  -->
+
+    <section class="h-fit justify-center flex mt-12 xl:mt-[12rem] w-full px-5">
+        <div class="pt-12 rounded-[3rem] px-[2.8rem] flex flex-col md:flex-row items-center section__two--gradient w-full">
+            <div class="xl:mt-[-9rem]">
+                <img class="lg:max-w-[399px]" src="assets/Plus.avif" alt="">
+            </div>
+            <div class="lg:w-[431px] xl:ml-80">
+                <h2 class="text-xl lg:text-5xl font-bold mb-8">Put money in your hands</h2>
+                <p class="spercial__txt text-gray-800 lg:text-lg font-extralight mb-8" style="font-weight: lighter;">Full financial visibility, with your other bank accounts and credit cards all in one place. Get interest on your money, personalised budgeting and much more.</p>
+                <button class="hover:opacity-[0.8] mb-20 rounded-md bg-[#016076] text-white font-bold px-12 py-3 block lg:px-12 lg:text-lg">Explore Diamond Horizon Plus</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section row 6  -->
+
+    <section class="h-fit justify-center flex mt-12 xl:mt-[12rem] w-full px-5">
+        <div class="bg-[#BBF6E2] pt-12 rounded-[3rem] px-[2.8rem] flex flex-col md:flex-row items-center w-full">
+            <div class="xl:mr-80">
+                <img class="lg:max-w-[399px]" src="assets/Abroad.avif" alt="">
+            </div>
+            <div class="lg:w-[431px]">
+                <h2 class="text-xl lg:text-5xl font-bold mb-8">Using Diamond Horizon Abroad</h2>
+                <p class="spercial__txt text-gray-800 lg:text-lg font-extralight mb-8" style="font-weight: lighter;">Use Diamond Horizon anywhere in the world that accepts Mastercard. We don’t charge any fees for spending abroad, and we don’t mark up the exchange rate – unlike most other banks. Travelling with Diamond Horizon</p>
+                <button class="hover:opacity-[0.8] mb-20 rounded-md bg-[#016076] text-white font-bold px-12 py-3 block lg:px-12 lg:text-lg">Travelling with Diamond Horizon</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- section row 9 -->
+
+    <section class="h-fit justify-center flex mt-12 xl:mt-[12rem] w-full">
+        <div class="pt-12 rounded-[3rem] px-[2.8rem] flex flex-col md:flex-row items-center w-full">
+            <div class="lg:w-[431px] xl:mr-80">
+                <h2 class="text-xl lg:text-5xl font-bold mb-8">A better way to pay later</h2>
+                <p class="spercial__txt text-gray-800 lg:text-lg font-extralight mb-8" style="font-weight: lighter;">Use Diamond Horizon Flex to spread the cost of pretty much anything. If eligible it’s interest free over 3 instalments. Or there’s 6 or 12 instalments at 24% APR representative (variable) if you want more time.</p>
+                <button class="hover:opacity-[0.8] mb-20 rounded-md bg-[#016076] text-white font-bold px-12 py-3 block lg:px-12 lg:text-lg">More about Diamond Flex</button>
+                <p class="spercial__txt text-gray-800 lg:text-lg font-extralight mb-8" style="font-weight: lighter;">Diamond Flex is credit for eligible 18+ year olds. Ts&Cs apply. Carefully consider the cost of using credit for purchases. Missed payments may negatively impact your credit score and you may lose the interest-free rate on existing plans. Representative example: 24% APR representative (variable). £1200 credit limit. 24% yearly interest (variable).</p>
+            </div>
+            <div class="xl:mt-[-9rem]">
+                <img class="lg:max-w-[399px]" src="assets/Flex.avif" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Last Section! -->
+
+    
+    <section class="h-fit justify-center flex mt-12 xl:mt-[12rem] w-full">
+        <div class="pt-12 rounded-[3rem] px-[2.8rem] flex flex-col md:flex-row items-center w-full">
+            <div class="xl:mr-80">
+                <img class="lg:max-w-[399px]" src="assets/Borrowing.avif" alt="">
+            </div>
+            <div class="lg:w-[431px]">
+                <h2 class="text-xl lg:text-5xl font-bold mb-8">Borrowing: Loans and Overdrafts</h2>
+                <p class="spercial__txt text-gray-800 lg:text-lg font-extralight mb-8" style="font-weight: lighter;">We offer overdrafts up to £2,000 and loans up to £25,000. Checking if you're eligible won't leave a mark on your credit score, there are no lengthy forms to fill in, and no charges for paying us back early.</p>
+                <button class="hover:opacity-[0.8] mb-20 rounded-md bg-[#016076] text-white font-bold px-12 py-3 block lg:px-12 lg:text-lg">Borrowing with Diamond Horizon</button>
+                <p class="spercial__txt text-gray-800 lg:text-lg font-extralight mb-8" style="font-weight: lighter;">Our representative APR is 10.5% for loans more than £10,000, up to £25,000. For loans up to £10,000 it’s 23.9%. How does our overdraft compare? Our representative APR is 39.0%. You can use the APR to compare the cost of different credit products.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="h-fit justify-center flex mt-12 xl:mt-[12rem] w-full">
+        <div class="bg-[#30a52e] rounded-[3rem] px-[2.8rem] flex flex-col md:flex-row items-center py-12">
+            <div class="xl:mr-80">
+                <h3 class="text-xl  lg:text-5xl font-bold mb-8 text-white">Keep Your Money Safe</h3>
+                <p class="text-white max-w-[400px]">Cutting-edge technology, FSCS protection and 24/7 support if you need us urgently. Just a few of the reasons over 6 million customers trust us to keep their money safe.</p>
+                <button class="hover:opacity-[0.8] mb-20 rounded-md bg-[#016076] text-white font-bold px-12 py-3 block lg:px-12 lg:text-lg">Find out more</button>
+            </div>
+            <div>
+                <img src="assets/illus_safe@2x.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="h-fit my-12 justify-start flex xl:mt-[5rem] xl:mb-[5rem] w-full">
+        <div class="lg:max-w-[60rem] text-center lg:text-left">
+            <p class="bg-[#F2F8F3] mb-8 w-fit px-4 rounded-md">Published August 2022</p>
+            <h1 class="mb-8 font-bold text-2xl">Independent service quality survey results</h1>
+            <p class="mb-8 font-thin text-gray-500">Personal current accounts</p>
+            <p class="mb-8 font-thin text-gray-500">As part of a regulatory requirement, independent surveys were conducted to ask customers of the largest personal current account providers in Great Britain and Northern Ireland if they would recommend their provider to friends and family. The results represent the view of customers who took part in the survey.</p>
+        </div>
+    </section>
+
+    <section class="w-full justify-center items-center">
+        <div class="h-fit my-12 justify-start flex flex-col md:flex-row xl:mt-[5rem] xl:mb-[5rem]">
+            <div class="mx-5 mb-12 md:mb-0 flex flex-col items-center lg:items-start justify-center">
+                <h3 class="font-bold text-2xl">Great Britain</h3>
+                <img class="border-solid border-[1px] border-[#016076] rounded-md my-5 w-[527px]" src="assets/overall-service-quality.png" alt="">
+                <button class="w-full md:w-fit bg-white py-2 px-4 rounded-md text-[#016076] border-solid border-[1px] border-[#016076]">View  full results for Great Britain</button>
+            </div>
+    
+            <div class="mx-5 mb-12 md:mb-0 flex flex-col items-center lg:items-start justify-center">
+                <h3 class="font-bold text-2xl">Northern Ireland</h3>
+                <img class="border-solid border-[1px] border-[#016076] rounded-md my-5 w-[527px]" src="assets/overall-service-quality-2.png" alt="">
+                <button class="w-full md:w-fit bg-white py-2 px-4 rounded-md text-[#016076] border-solid border-[1px] border-[#016076]">View full results for Northern Ireland</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="px-20 flex flex-col justify-center items-center w-full">
+        <div class="bg-[#FF4B44] rounded-[3rem] w-[100vw] p-12">
+            <h3 class="font-bold text-2xl my-3 text-center text-white">Help us build the kind of bank you want to use</h3>
+            <p class="font-bold text-2xl my-3 text-center text-white">Download the Diamond Horizon app on iOS or Android and join more than 6 million people who've changed the way they bank.</p>
+            <div class="flex items-center justify-center mt-3 mb-12 flex-wrap">
+                <img class="w-[150px] h-[50px]" src="assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="ios app store logog">
+                <img class="w-[191px] h-[73px]" src="assets/google-play-badge.png" alt="google play">
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#30a52e] mt-[-2rem] pt-[5rem] flex flex-col w-full">
+        <div class="px-6 flex flex-col md:flex-row justify-between items-start">
+            <div class="footer__top">
+                <div class="top__left">
+                    <img class="w-[13rem]" src="assets/diamond-on-dark.png" alt="">
+                    <div class="flex flex-wrap ml-5 md:ml-0">
+                        <ul class="lg:ml-4 lg:w-[12rem]">
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">About us</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Diamond Us</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Blog</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Press</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Careers</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Our social programme</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Accessibility</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Lost your phone and card?</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Investor Information</a></li>
+                        </ul>
+                        <ul class="lg:ml-11 lg:w-[12rem]">
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Supporting all our customers</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">How we can support with money worries</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Helping everyone belong at Diamond Horizon</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Coronavirus information</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">How we protect you</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Our tone of voice</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Business Accounts</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Modern Slavery</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">FAQ</a></li>
+                        </ul>
+                        <ul class="lg:ml-11 lg:w-[12rem]">
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Cookie</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Browser Support Policy</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Mobile Operating System Support Policy</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">Information about our Personal Current Account Services</a></li>
+                            <li class="my-4"><a class="hover:text-yellow-300 text-white" href="#">App and Open Banking Performance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="footer__bottom">
+                <div class="flex items-center justify-center mt-3 mb-12 flex-wrap">
+                    <img class="w-[150px] h-[50px]" src="assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="ios app store logog">
+                    <img class="w-[191px] h-[73px]" src="assets/google-play-badge.png" alt="google play">
+                </div>
+                <div class="flex flex-wrap">
+                    <span class="p-3 rounded-xl hover:cursor-pointer mx-2 bg-[#27404B] hover:bg-[#016076]"><img class="w-5" src="assets/social/twitter.svg" alt=""></span>
+                    <span class="p-3 rounded-xl hover:cursor-pointer mx-2 bg-[#27404B] hover:bg-[#016076]"><img class="w-5" src="assets/social/instagram.svg" alt=""></span>
+                    <span class="p-3 rounded-xl hover:cursor-pointer mx-2 bg-[#27404B] hover:bg-[#016076]"><img class="w-5" src="assets/social/facebook.svg" alt=""></span>
+                    <span class="p-3 rounded-xl hover:cursor-pointer mx-2 bg-[#27404B] hover:bg-[#016076]"><img class="w-5" src="assets/social/linkedin.svg" alt=""></span>
+                    <span class="p-3 rounded-xl hover:cursor-pointer mx-2 bg-[#27404B] hover:bg-[#016076]"><img class="w-5" src="assets/social/youtube.svg" alt=""></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-6 py-20 bg-[#112231] mt-24">
+            <h2 class="text-white mb-5 text-xl">Existing customers can get help via the app</h2>
+            <p class="footer__text text-white max-w-[60rem] font-thin">Diamond Horizon Bank Limited is a company registered in England and Wales (No. 09446231). Diamond Horizon Bank Ltd is authorised by the Prudential Regulation Authority (PRA) and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. Our Financial Services Register number is 730427.</p>
+        </div>
+    </footer>
+
+ <!-- Menu  -->
+
+    <div class="mobile__nav hidden w-full h-screen bg-[#02060952] fixed top-0 bottom-0 left-0 right-0">
+        <div class="w-[90%] sm:w-[70%] md:w-[50%] fixed top-0 right-0 h-screen bg-white">
+            <div class="relative w-full h-full">
+                <div class="w-full max-w-[86rem] mx-auto">
+                    <div class="flex justify-between items-center p-5">
+                        <img class="w-[129px]" src="assets/diamond-on-dark.png" alt="">
+                        <img onclick="document.querySelector('.mobile__nav').classList.add('hidden')" id="close" class="w-[15px] h-[15px] hover:cursor-pointer" src="assets/close.png" alt="">
+                    </div>
+                    <div class="mt-11 flex flex-col items-start gap-6">
+                        <span><a class="border-l-[10px] px-3 py-4 hover:border-[#016076] border-solid" href="#">Business</a></span>
+                        <span><a class="border-l-[10px] px-3 py-4 hover:border-[#016076] border-solid" href="#">Personal</a></span>
+                    </div>
+                    <div class="mx-10 mt-12 w-full">
+                       <hr>
+                    <!-- <div class="w-full mt-11 flex flex-col items-start gap-6"> -->
+                        <span class="block"><a class="inline-block w-full border-b-[1px] border-solid border-[rgba(195,200,207,.4)] px-3 py-4" href="#">About Us</a></span>
+                        <span class="block"><a class="inline-block w-full border-b-[1px] border-solid border-[rgba(195,200,207,.4)] lg:px-3 py-4 text-[1.2rem] text-[#112231]" href="#">Services</a></span>
+                        <span class="block"><a class="inline-block w-full border-b-[1px] border-solid border-[rgba(195,200,207,.4)] lg:px-3 py-4 text-[1.2rem] text-[#112231]" href="#">Online Bank</a></span>
+                        <span class="block"><a class="inline-block w-full border-b-[1px] border-solid border-[rgba(195,200,207,.4)] lg:px-3 py-4 text-[1.2rem] text-[#112231]" href="#">Privacy</a></span>
+                        <span class="block"><a class="inline-block w-full border-b-[1px] border-solid border-[rgba(195,200,207,.4)] lg:px-3 py-4 text-[1.2rem] text-[#112231]" href="#">Contacts</a></span>
+                    <!-- </div> -->
+                        <button class="hover:opacity-[0.8] mb-5 md:mb-0 rounded-md bg-[#016076] text-white font-bold py-3 block px-20 mt-6 lg:mb-4 xl:mb-0 lg:text-lg"><a href="login.html">Login</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

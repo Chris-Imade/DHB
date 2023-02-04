@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: SF-Pro-Rounded-Bold;
+    src: url(assets/fonts/SF-Pro-Rounded-Bold.ttf);
+}
+
+@font-face {
+    font-family: SF-Pro-Rounded-Regular;
+    src: url(assets/fonts/SF-Pro-Rounded-Regular.ttf);
+}
+.footer__text {
+    font-family: SF-Pro-Rounded-Regular;
+}
+.spercial__txt {
+    font-family: SF-Pro-Rounded-Regular;
+}
+body {
+    font-family: SF-Pro-Rounded-Bold !important;
+    overflow-x: hidden;
+}
+section > * {
+    font-family: SF-Pro-Rounded-Bold;
+}
+.banner__text > p {
+    font-family: SF-Pro-Rounded-Bold;
+}
+
+nav>div>ul>li>a {
+    font-family: SF-Pro-Rounded-Bold;
+    text-decoration: none;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__gradient {
+    background: linear-gradient(90deg,#f7edff,#fdf8e1,#f7f7f7);
+}
+.section__two--gradient {
+    background: linear-gradient(90deg,#ceffff,#f0fde2,#f7f7f7);
+}
