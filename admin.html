@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin management</title>
+</head>
+<body>
+    <div>Animated form</div>
+        <div class="main">
+        <form>
+            <input type="text" class="write" placeholder></input>
+            <label class="hello">Username</label>
+            <span class="enter"></span>
+        </form>
+    </div>
+</body>
+<style>
+    body {
+  text-align:center;
+  font-family: 'helvetica neue'
+}
+
+.main{
+  position:relative;
+  margin: 100px;
+}
+.hello{
+  position:absolute;
+  left: 25%;
+  top: 10px;
+  font-size: 18px;
+  font-weight: 200;
+  color: #cecece;
+  transition: all 0.5s ease;
+  pointer-events: none;
+}
+
+input[type=text]:focus~.hello {
+  display:block;
+  color: black;
+  top: -20px;
+  font-size: 14px;
+}
+
+input[type=text]:focus~.enter {
+  background-color: #0F1F7A;
+  position: absolute;
+  content: ' ';
+  height: 1px;
+  right: 45%;
+  top: 42px;
+  transform: scaleX(5)
+
+}
+
+.enter{
+  transition: all ease 0.5s;
+  width: 10.1%;
+  transform: scaleX(1)
+
+}
+
+textarea, input { 
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #cecece;
+  height: 40px;
+  width: 50%;
+}
+
+input:focus{
+  content
+}
+</style>
+</html>
